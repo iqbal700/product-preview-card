@@ -1,0 +1,47 @@
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2rem auto; 
+  }
+
+  .container .img-div img {
+    border-radius: 10px 10px 0 0;
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover;
+    width: 100%; 
+  }
+
+  .main .title {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .main .title .title-content {
+    margin-left: 0;
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .main .title .title-content h1 {
+    width: 100%; 
+    font-size: 1.8rem; 
+  }
+
+  .main .title .title-content .p2 {
+    width: 100%;
+  }
+
+  .cart-btn {
+    width: 100%;
+    margin-top: 1rem; 
+  }
+  
+  .price-sec {
+    margin: 1rem 0;
+  }
+}

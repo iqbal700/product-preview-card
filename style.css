@@ -1,0 +1,148 @@
+
+/*  ==== imported font family ==== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+   
+/*  ==== imported font family ==== */
+
+:root 
+{
+    --Green-light: hsl(158, 36%, 37%);
+    --Green-deep: hsl(158, 42%, 18%);
+
+    /* ### Neutral  */
+
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ### font-size  */
+    --Font-size-p: 14px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+body, html 
+{
+    height: 100vh;
+} 
+
+.main
+{
+    height: 100vh;
+    display: flex;
+    background: var(--Cream);
+      
+}
+.container
+{
+    border: 0px solid;  
+    width: 700px;
+    height: 450px;
+    margin:auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container .img-div img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 0px 0px 7px;   
+}
+
+.main .title {
+
+    background: var(--White);
+    border-radius: 0px 15px 15px 0px;   
+}
+
+.main .title .title-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin-left: 1.5rem;
+
+}
+
+.main .title .title-content .p {
+
+   font-family: "Montserrat", sans-serif;
+    letter-spacing: .2rem;
+    color: var(--Grey);
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.main .title .title-content h1 {
+
+    font-family: "Fraunces", serif;
+    width: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: var(--Black);
+}
+
+.main .title .title-content .p2 {
+
+    font-family: "Fraunces", serif;
+    color: var(--Grey);
+    font-size: 14px;
+    width: 350px;
+}
+
+.price-sec {
+
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.price-sec h3 {
+
+    font-family: "Fraunces", serif;
+    color: var(--Green-light);
+    font-size: 2.5rem;
+}
+
+.price-sec p {
+
+    font-family: "Fraunces", serif;
+    text-decoration: line-through;
+    font-size: 14px;
+    color: var(--Grey);
+}
+
+.cart-btn {
+
+    background: var(--Green-light);
+    width: 15rem;
+    padding: 1.2rem;
+    color: var(--White);
+    border-radius: 10px;
+    text-align: center; 
+    
+}
+
+.cart-btn i {
+
+    margin-right: 8px;
+}
+
