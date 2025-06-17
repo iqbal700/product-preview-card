@@ -36,10 +36,12 @@
     scroll-behavior: smooth;
 }
 
-body, html 
-{
-    height: 100vh;
-} 
+ html, body {
+
+    width: 100%;
+    overflow-x: hidden;       
+}
+
 
 .main
 {
@@ -146,3 +148,5 @@ body, html
     margin-right: 8px;
 }
 
+    /* ========= Thanks For Visiting My Code 
+                 Don't forget to give Love ========= */
